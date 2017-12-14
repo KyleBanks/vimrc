@@ -18,9 +18,9 @@ set smarttab            " be smart about tabs
 set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
-set bomb 
 
 " Plugins via Vim-Plug
 call plug#begin(expand('~/.vim/plugged'))
 Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
+Plug 'sbdchd/neoformat'
 call plug#end()
