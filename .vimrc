@@ -13,6 +13,7 @@ set tabstop=4           " show existing tab with 4 spaces width
 set shiftwidth=4        " when indenting with '>', use 4 spaces width
 set expandtab           " On pressing tab, insert 4 spaces
 set smarttab            " be smart about tabs
+set backspace=indent,eol,start " Fixes backspace not working on automatically inserted whitespace
 
 " Encoding, see: http://vim.wikia.com/wiki/Working_with_Unicode
 set encoding=utf-8
