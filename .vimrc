@@ -25,3 +25,5 @@ call plug#begin(expand('~/.vim/plugged'))
 Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
 Plug 'sbdchd/neoformat'
 call plug#end()
+
+let g:go_fmt_command = "goimports" " run :GoImports on save
